@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE preguntas SYSTEM "preguntas.dtd">
+<preguntas>
+<pregunta id='pregunta001'>
+<tipus>text</tipus>
+<text>Ciudad capital de España</text>
+<respuesta>Madrid</respuesta>
+</pregunta>
+<pregunta id='pregunta002'>
+<tipus>text</tipus>
+<text>¿En qué año llegó el hombre a la luna?</text>
+<respuesta>1969</respuesta>
+</pregunta>
+<pregunta id='pregunta003'>
+<tipus>select</tipus>
+<text>¿Qué sistema numérico es el principial usado en la informática?</text>
+<opcio>Octal</opcio>
+<opcio>Binario</opcio> 
+<opcio>Hexadecimal</opcio>
+<respuesta>2</respuesta> <!-- 0, 1, 2 -->
+</pregunta>
+<pregunta id='pregunta004'>
+<tipus>select</tipus>
+<text>¿Cuál es el fruto del nogal?</text>
+<opcio>Nuez</opcio>
+<opcio>Manzana</opcio> 
+<opcio>Piña</opcio>
+<respuesta>1</respuesta> <!-- 0, 1, 2 -->
+</pregunta>
+<pregunta id='pregunta005'>
+<tipus>select multiple</tipus>
+<text>¿Cuál de estos tipos son navegadores web?</text>
+<opcio>Chrome</opcio>
+<opcio>Explorador</opcio> 
+<opcio>Mozilla</opcio>
+<opcio>Edger</opcio> 
+<respuesta>1</respuesta> <!-- 0, 1, 2, 3 -->
+<respuesta>3</respuesta>
+</pregunta>
+<pregunta id='pregunta006'>
+<tipus>select</tipus>
+<text>2 + 4 * 5 = ?</text>
+<opcio>30</opcio>
+<opcio>11</opcio> 
+<opcio>22</opcio>
+<respuesta>3</respuesta> <!-- 0, 1, 2 -->
+</pregunta>
+<pregunta id='pregunta007'>
+<tipus>ComboBox</tipus>
+<text>¿Cúal de éstos nombres pertenecen a una red social=</text>
+<opcio>Facebool</opcio>
+<opcio>Twider</opcio> 
+<opcio>Facebook</opcio>
+<respuesta>2</respuesta> <!-- 0, 1, 2 -->
+</pregunta>
+<pregunta id='pregunta008'>
+<tipus>text</tipus>
+<text>Cielo es a azul como noche es a...</text>
+<respuesta>negro</respuesta>
+</pregunta>
+<pregunta id='pregunta009'>
+<tipus>select</tipus>
+<text>¿Puede el hombre volar por sí mismo?</text>
+<opcio>Sí</opcio>
+<opcio>No</opcio> 
+<opcio>Llenguatge extrem multiplataforma</opcio>
+<respuesta>1</respuesta> <!-- 0, 1 -->
+</pregunta>
+<pregunta id='pregunta010'>
+<tipus>select multiple</tipus>
+<text>¿Dónde puedes almacenar datos informáticos?</text>
+<opcio>Disco Duro</opcio>
+<opcio>Archivador</opcio> 
+<opcio>USB</opcio>
+<opcio>Cartapacio</opcio>
+<respuesta>1</respuesta> <!-- 0, 1, 2, 3 -->
+<respuesta>3</respuesta> <!-- 0, 1, 2, 3 -->
+</pregunta>
+</preguntas>
