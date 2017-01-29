@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT preguntas (pregunta)+>
+<!ELEMENT pregunta (tipus,text,opcio*,respuesta)>
+<!ATTLIST pregunta id ID #REQUIRED>
+<!ELEMENT tipus (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT opcio (#PCDATA)>
+<!ELEMENT respuesta (#PCDATA)>
