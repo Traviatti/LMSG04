@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE preguntas SYSTEM "preguntas.dtd">
+
+<preguntas>
+
+	<pregunta id='pregunta001'>
+		<tipo>text</tipo>
+		<text>1. Ciudad capital de España</text>
+		<respuesta>Madrid</respuesta>
+	</pregunta>
+
+	<pregunta id='pregunta002'>
+		<tipo>text</tipo>
+		<text>2. ¿En qué año llegó el hombre a la luna?</text>
+		<respuesta>1969</respuesta>
+	</pregunta>
+
+	<pregunta id='pregunta003'>
+		<tipo>radio</tipo>
+		<text>3. ¿Qué sistema numérico es el principial usado en la informática?</text>
+		<opcion>a) Octal</opcion>
+		<opcion>b) Binario</opcion> 
+		<opcion>c) Hexadecimal</opcion>
+		<respuesta>2</respuesta> <!-- 0, 1, 2 -->
+	</pregunta>
+
+	<pregunta id='pregunta004'>
+		<tipo>select</tipo>
+		<text>4. ¿Cuál es el fruto del nogal?</text>
+		<opcion>a) Nuez</opcion>
+		<opcion>b) Manzana</opcion> 
+		<opcion>c) Piña</opcion>
+		<respuesta>1</respuesta>
+	</pregunta>
+
+	<pregunta id='pregunta005'>
+		<tipo>multiple</tipo>
+		<text>5. ¿Cuál de estos tipos son navegadores web?</text>
+		<opcion>a) Chrome</opcion>
+		<opcion>b) Explorador</opcion> 
+		<opcion>c) Mozilla</opcion>
+		<opcion>d) Edger</opcion> 
+		<respuesta>1</respuesta>
+		<respuesta>3</respuesta> <!-- 0, 1, 2, 3 -->
+	</pregunta>
+
+	<pregunta id='pregunta006'>
+		<tipo>radio</tipo>
+		<text>6. 2 + 4 * 5 = ?</text>
+		<opcion>a) 30</opcion>
+		<opcion>b) 11</opcion> 
+		<opcion>c) 22</opcion>
+		<respuesta>3</respuesta> <!-- 0, 1, 2 -->
+	</pregunta>
+
+	<pregunta id='pregunta007'>
+		<tipo>checkboxx</tipo>
+		<text>7. ¿Cúal de éstos nombres pertenecen a una red social=</text>
+		<opcion>a) Facebool</opcion>
+		<opcion>b) Twider</opcion> 
+		<opcion>c) Facebook</opcion>
+		<respuesta>2</respuesta> <!-- 0, 1, 2 -->
+	</pregunta>
+
+	<pregunta id='pregunta008'>
+		<tipo>text</tipo>
+		<text>8. Cielo es a azul como noche es a...</text>
+		<respuesta>negro</respuesta>
+	</pregunta>
+
+	<pregunta id='pregunta009'>
+		<tipo>select</tipo>
+		<text>9. ¿Puede el hombre volar por sí mismo?</text>
+		<opcion>a) Sí</opcion>
+		<opcion>b) No</opcion> 
+		<respuesta>1</respuesta> <!-- 0, 1 -->
+	</pregunta>
+
+	<pregunta id='pregunta010'>
+		<tipo>checkbox</tipo>
+		<text>10. ¿Dónde puedes almacenar datos informáticos?</text>
+		<opcion>a) Disco Duro</opcion>
+		<opcion>b) Archivador</opcion> 
+		<opcion>c) USB</opcion>
+		<opcion>d) Cartapacio</opcion>
+		<respuesta>1</respuesta>
+		<respuesta>3</respuesta> <!-- 0, 1, 2, 3 -->
+	</pregunta>
+	
+</preguntas>
